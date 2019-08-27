@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('nodejs_test_db', 'root', 'pass12345', {
+const sequelize = new Sequelize('nodejs_test_db', 'root', 'password', {
     host: 'localhost',
     dialect: 'mysql',
     timezone: '+08:00',
