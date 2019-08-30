@@ -98,7 +98,7 @@ module.exports = `
 `
 ```
 
-### 4. Setting GraphQL server
+### 5. Setting GraphQL server
 ```js
 const { GraphQLServer } = require('graphql-yoga');
 
@@ -115,3 +115,5 @@ const options = {
 const server = new GraphQLServer({ typeDefs, resolvers })
 server.start(options, ({ port }) => console.log(`Server is running on localhost:${port}`))
 ```
+---
+[Romar Cablao](https://www.linkedin.com/in/romarcablao) | <romarcablao@gmail.com>
